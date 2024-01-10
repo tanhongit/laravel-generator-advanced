@@ -36,7 +36,7 @@ class DetectController extends Controller
     }
 
     /**
-     * @param $file
+     * @param  $file
      * @return ReflectionClass|null
      */
     public function getClassFromFile($file): ?ReflectionClass
@@ -107,7 +107,7 @@ class DetectController extends Controller
      * A class of the given type must have a name ending with the given type or "Eloquent" + the given type.
      *
      * @param  ReflectionClass  $class
-     * @param $type
+     * @param  $type
      * @return bool
      */
     protected function checkClassType(ReflectionClass $class, $type): bool

@@ -13,7 +13,6 @@ class AssetController extends BaseController
 {
     /**
      * @param  Request  $request
-     *
      * @return Response
      */
     public function index(Request $request): Response

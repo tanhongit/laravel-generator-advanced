@@ -31,7 +31,6 @@ if (!function_exists('lara_gen_adv_asset')) {
      * Returns asset from laravel-generator-advanced composer package.
      *
      * @param  string  $asset
-     *
      * @return string
      *
      * @throws LaravelGeneratorAdvancedException
@@ -55,7 +54,6 @@ if (!function_exists('lara_gen_adv_dist_path_allowed')) {
      * Returns asset allowed from laravel-generator-advanced composer package.
      *
      * @param  string  $asset
-     *
      * @return string
      *
      * @throws LaravelGeneratorAdvancedException

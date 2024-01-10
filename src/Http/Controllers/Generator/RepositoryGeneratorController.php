@@ -21,7 +21,7 @@ class RepositoryGeneratorController extends GeneratorController
     }
 
     /**
-     * @param $modelName
+     * @param  $modelName
      * @return void
      */
     public function generateRepository($modelName)
@@ -35,8 +35,8 @@ class RepositoryGeneratorController extends GeneratorController
     }
 
     /**
-     * @param $fileName
-     * @param $fileContent
+     * @param  $fileName
+     * @param  $fileContent
      * @return void
      */
     public function saveFile($fileName, $fileContent)
